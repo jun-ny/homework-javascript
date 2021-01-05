@@ -36,4 +36,16 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/0104", method = RequestMethod.GET)
+	public String one() {
+		
+		return "/0104";
+	}
+	
+	@RequestMapping(value = "/0105", method = RequestMethod.GET)
+	public String two() {
+		
+		return "/0105";
+	}
+	
 }
