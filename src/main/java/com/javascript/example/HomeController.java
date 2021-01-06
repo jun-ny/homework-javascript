@@ -48,4 +48,10 @@ public class HomeController {
 		return "/0105";
 	}
 	
+	@RequestMapping(value = "/0106", method = RequestMethod.GET)
+	public String three() {
+		
+		return "/0106";
+	}
+	
 }
