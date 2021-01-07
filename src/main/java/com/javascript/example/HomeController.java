@@ -54,4 +54,10 @@ public class HomeController {
 		return "/0106";
 	}
 	
+	@RequestMapping(value = "/0107", method = RequestMethod.GET)
+	public String four() {
+		
+		return "/0107";
+	}
+	
 }
