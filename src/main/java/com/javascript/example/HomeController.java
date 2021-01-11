@@ -66,4 +66,11 @@ public class HomeController {
 		return "/0109";
 	}
 	
+	@RequestMapping(value = "/0111", method = RequestMethod.GET)
+	public String six() {
+		
+		return "/0111";
+	}
+	
+	
 }
