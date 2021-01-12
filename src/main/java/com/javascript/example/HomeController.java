@@ -72,5 +72,10 @@ public class HomeController {
 		return "/0111";
 	}
 	
+	@RequestMapping(value = "/0112", method = RequestMethod.GET)
+	public String seven() {
+		
+		return "/0112";
+	}
 	
 }
