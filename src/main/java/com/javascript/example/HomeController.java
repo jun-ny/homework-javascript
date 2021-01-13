@@ -78,4 +78,11 @@ public class HomeController {
 		return "/0112";
 	}
 	
+	
+	@RequestMapping(value = "/0113", method = RequestMethod.GET)
+	public String eight() {
+		
+		return "/0113";
+	}
+	
 }

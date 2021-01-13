@@ -15,7 +15,9 @@ alert(output);
 window.open('http://hanbit.co.kr', 'child', 'width=600, height=300', true);
 
 var child = window.open('','', 'width = 300, height = 200');
-
+if(!child) {
+	alert('팝업 차단을 해제해주세요.');
+}
 child.document.write('<h1>From Parent Window</h1>');
 
 //상대 이동과 절대 이동
