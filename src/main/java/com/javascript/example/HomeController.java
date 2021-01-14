@@ -85,4 +85,10 @@ public class HomeController {
 		return "/0113";
 	}
 	
+	@RequestMapping(value = "/0114", method = RequestMethod.GET)
+	public String nine() {
+		
+		return "/0114";
+	}
+	
 }
