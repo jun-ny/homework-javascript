@@ -91,4 +91,10 @@ public class HomeController {
 		return "/0114";
 	}
 	
+	@RequestMapping(value = "/0115", method = RequestMethod.GET)
+	public String ten() {
+		
+		return "/0115";
+	}
+	
 }
